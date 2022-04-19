@@ -689,7 +689,9 @@ ul.top-info li p.info-text {
   padding-left: 0;
   padding-right: 30px;
 }
-
+li.nav-item {
+  width: 120px;
+}
 @media (max-width: 991px) {
   .header-one ul.navbar-nav > li {
     padding-right: 0;
