@@ -1,0 +1,49 @@
+<head>
+
+  <!-- Basic Page Needs
+================================================== -->
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+  <!-- Mobile Specific Metas
+================================================== -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="PEAPROS PEAPROS-ASIA is a leading IT Service for energy industry">
+  <meta name="keywords" content="PEAPROS, PEAPROS-ASIA, IT Service, Consulting, energy industry, oil&gas">
+  <meta name="robots" content="all">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org", 
+      "@type": "Company",
+      "headline": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+      "description": "PEAPROS PEAPROS-ASIA is a leading IT Service for energy industry",
+      "image": "http://peapros-asia.com/images/logo.png",
+      "url": "http://peapros-asia.com/",
+      "datePublished": "2017-11-12",
+      "dateCreated": "2017-11-12",
+      "dateModified": "2017-11-12",
+      "publisher": "PEAPROS-ASIA"
+    }
+    </script>
+  <!-- Favicon
+================================================== -->
+  <link rel="icon" type="image/png" href="{{ "images/favicon.png" | prepend: site.baseurl }}">
+
+  <!-- CSS
+================================================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="{{ "plugins/bootstrap/bootstrap.min.css" | prepend: site.baseurl }}">
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="{{ "plugins/fontawesome/css/all.min.css" | prepend: site.baseurl }}">
+  <!-- Animation -->
+  <link rel="stylesheet" href="{{ "plugins/animate-css/animate.css" | prepend: site.baseurl }}">
+  <!-- slick Carousel -->
+  <link rel="stylesheet" href="{{ "plugins/slick/slick.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" href="{{ "plugins/slick/slick-theme.css" | prepend: site.baseurl }}">
+  <!-- Colorbox -->
+  <link rel="stylesheet" href="{{ "plugins/colorbox/colorbox.css" | prepend: site.baseurl }}">
+  <!-- Template styles-->
+  <link rel="stylesheet" href="{{ "css/style.css" | prepend: site.baseurl }}">
+
+</head>

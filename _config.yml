@@ -1,0 +1,17 @@
+url: http://lizheng-work.github.io
+baseurl: http://lizheng-work.github.io
+
+title: 清远宏通
+email: admin@qingyuanchina.com
+phone: +86 010-62152001
+address: 北京市房山区长阳镇嘉州水郡225号5层1-512
+
+collections:
+  solutions:
+    output: true
+
+
+
+
+markdown: kramdown
+permalink: pretty
